@@ -1,60 +1,22 @@
-/* Стилизация кнопки */
-button {
-    background-color: #3498db;
-    color: #ffffff;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+button{
+    background-color: #4081da;
+    color: white;  
+} 
+header a .web, footer a .web{
+    color: #4081da;          
 }
-
-/* Стилизация слова "Web" в ссылках сверху и снизу */
-header a .web, footer a .web {
-    color: #3498db; /* Синий цвет текста */
-    font-weight: bold; /* Жирный шрифт */
+header a .studio{
+    color: black;
 }
-
-/* Стилизация слова "Studio" в ссылках сверху и снизу */
-header a .studio, footer a .studio {
-    color: #ffffff; /* Белый цвет текста */
-    font-weight: bold; /* Жирный шрифт */
+footer a .studio{
+    color: white;
 }
-
-/* При наведении на ссылки меняем цвет слов "Web" и "Studio" */
-header a:hover .web, footer a:hover .web {
-    color: #2980b9; /* Синий цвет текста при наведении */
+header a .Студія{
+    color: #4081da;
 }
-
-header a:hover .studio, footer a:hover .studio {
-    color: #ffffff; /* Белый цвет текста при наведении */
+header a .info@devstudio.com{
+    color: #4081da;
 }
-
-/* Стилизация всех остальных ссылок */
-header a:not(.web):not(.studio):not(.mailto):not(), footer a:not(.web):not(.studio):not(.mailto) {
-    color: #000000; /* Чёрный цвет текста */
-}
-
-/* При наведении на все остальные ссылки меняем цвет */
-header a:not(.web):not(.studio):not(.mail):hover, footer a:not(.web):not(.studio):not(.mail):hover {
-    color: #333333; /* Чёрный цвет текста при наведении */
-}
-
-/* Стилизация "Студії" в навигационном меню */
-header nav a.studio {
-    color: #3498db !important; /* Синий цвет текста */
-}
-
-/* При наведении на "Студію" меняем цвет */
-header nav a.studio:hover {
-    color: #2980b9 !important; /* Синий цвет текста при наведении */
-}
-
-/* Стилизация "Електронної пошти" в футере */
-footer a.mail {
-    color: #3498db; /* Синий цвет текста */
-}
-
-/* При наведении на "Електронну пошту" меняем цвет */
-footer a.mail:hover {
-    color: #2980b9; /* Синий цвет текста при наведении */
+footer a .info@devstudio.com{
+    color: #4081da;
 }
