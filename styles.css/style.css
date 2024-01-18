@@ -1,22 +1,54 @@
-button{
-    background-color: #4081da;
-    color: white;  
-} 
-header a .web, footer a .web{
-    color: #4081da;          
+header a span.web {
+    color: #2196F3; /* Колір "Web" в хедері */
 }
-header a .studio{
-    color: black;
+header a span.studio {
+    color: #000000; /* Колір "Studio" в хедері */
 }
-footer a .studio{
-    color: white;
+nav a, footer a {
+    color: #212121; /* Колір всіх посилань, крім "WebStudio", "Студія" та "info@devstudio.com" */
 }
-header a .Студія{
-    color: #4081da;
+.studio-link, .email-link{
+    color: #2196F3; /* Колір посилань "Студія" та "info@devstudio.com" */
 }
-header a .info@devstudio.com{
-    color: #4081da;
+.phone-link{
+    color: #212121;
 }
-footer a .info@devstudio.com{
-    color: #4081da;
+h1{
+    color: #FFFFFF;
+}
+button {
+    background-color: #2196F3; /* Задній фон для кнопки в першій секції */
+    color: #FFFFFF; /* Колір тексту в кнопці */
+}
+h3 {
+    color: #212121; /* Колір для всіх <h3> */
+}
+section p {
+    color: #757575; /* Колір для всіх <p> в секції "Чим ми займаємось" */
+}
+.our-team{
+    background-color: #F5F4FA;
+}
+.our-team p{
+    color: #212121;
+}
+.our-team h3{
+    color: #757575;
+}
+.efective{
+    background-color: #2F303A;
+}
+footer{
+    background-color: #2F303A;
+}
+footer a{
+    color: #FFFFFF; /* Колір тексту в футері */
+}
+
+footer a span:first-child {
+    color: #2196F3; /* Колір "Web" в футері */
+}
+
+footer a span:last-child {
+    color: #FFFFFF; /* Колір "Studio" в футері */
 }
