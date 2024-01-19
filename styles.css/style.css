@@ -1,27 +1,32 @@
+:root{
+    --color-dark: #212121;
+    --color-light: #FFFFFF;
+    --color-main-brand: #2196f3;
+}
 header a span.web {
-    color: #2196F3; /* Колір "Web" в хедері */
+    color: var(--color-main-brand) /* Колір "Web" в хедері */
 }
 header a span.studio {
     color: #000000; /* Колір "Studio" в хедері */
 }
 nav a, footer a {
-    color: #212121; /* Колір всіх посилань, крім "WebStudio", "Студія" та "info@devstudio.com" */
+    color: var(--color-dark); /* Колір всіх посилань, крім "WebStudio", "Студія" та "info@devstudio.com" */
 }
 .studio-link, .email-link{
-    color: #2196F3; /* Колір посилань "Студія" та "info@devstudio.com" */
+    color: var(--color-main-brand) /* Колір посилань "Студія" та "info@devstudio.com" */
 }
 .phone-link{
-    color: #212121;
+    color: var(--color-dark);
 }
 h1{
-    color: #FFFFFF;
+    color: var(--color-light);
 }
 button {
-    background-color: #2196F3; /* Задній фон для кнопки в першій секції */
+    background-color: var(--color-main-brand) /* Задній фон для кнопки в першій секції */
     color: #FFFFFF; /* Колір тексту в кнопці */
 }
 h3 {
-    color: #212121; /* Колір для всіх <h3> */
+    color: var(--color-dark); /* Колір для всіх <h3> */
 }
 section p {
     color: #757575; /* Колір для всіх <p> в секції "Чим ми займаємось" */
@@ -30,7 +35,7 @@ section p {
     background-color: #F5F4FA;
 }
 .our-team p{
-    color: #212121;
+    color: var(--color-dark);
 }
 .our-team h3{
     color: #757575;
@@ -42,13 +47,13 @@ footer{
     background-color: #2F303A;
 }
 footer a{
-    color: #FFFFFF; /* Колір тексту в футері */
+    color: var(--color-light); /* Колір тексту в футері */
 }
 
 footer a span:first-child {
-    color: #2196F3; /* Колір "Web" в футері */
+    color: var(--color-main-brand) /* Колір "Web" в футері */
 }
 
 footer a span:last-child {
-    color: #FFFFFF; /* Колір "Studio" в футері */
+    color: var(--color-light); /* Колір "Studio" в футері */
 }
