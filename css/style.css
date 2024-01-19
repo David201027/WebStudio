@@ -4,12 +4,13 @@
     --color-main-brand: #2196F3;
     --color-backgraund: #2F303A;
     --color-text: #757575;
-}
+    --color-gray: #f5f4fa;
+    --color-black: #000000;
 header a span.web {
     color: var(--color-main-brand) /* Колір "Web" в хедері */
 }
 header a span.studio {
-    color: #000000; /* Колір "Studio" в хедері */
+    color: var(--color-black); /* Колір "Studio" в хедері */
 }
 nav a, footer a {
     color: var(--color-dark); /* Колір всіх посилань, крім "WebStudio", "Студія" та "info@devstudio.com" */
@@ -34,7 +35,7 @@ section p {
     color: var(--color-text); /* Колір для всіх <p> в секції "Чим ми займаємось" */
 }
 .our-team{
-    background-color: #f5f4fa;
+    background-color: var(--color-gray);
 }
 .our-team p{
     color: var(--color-dark);
