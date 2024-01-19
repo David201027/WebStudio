@@ -1,7 +1,7 @@
 :root{
     --color-dark: #212121;
     --color-light: #FFFFFF;
-    --color-main-brand: #2196f3;
+    --color-main-brand: #2196F3;
 }
 header a span.web {
     color: var(--color-main-brand) /* Колір "Web" в хедері */
