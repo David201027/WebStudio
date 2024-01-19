@@ -22,7 +22,7 @@ h1{
     color: var(--color-light);
 }
 button {
-    background-color: var(--color-main-brand) /* Задній фон для кнопки в першій секції */
+    background-color: var(--color-main-brand); /* Задній фон для кнопки в першій секції */
     color: #FFFFFF; /* Колір тексту в кнопці */
 }
 h3 {
