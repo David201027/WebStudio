@@ -54,10 +54,10 @@ footer a{
     color: var(--color-light); /* Колір тексту в футері */
 }
 
-footer a span:first-child {
+.web{
     color: var(--color-main-brand) /* Колір "Web" в футері */
 }
 
-footer a span:last-child {
+.studio{
     color: var(--color-light); /* Колір "Studio" в футері */
 }
