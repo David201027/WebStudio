@@ -22,3 +22,17 @@ nav a, footer a {
 .phone-link{
     color: var(--color-dark);
 }
+footer{
+    background-color: var(--color-backgraund);
+}
+footer a{
+    color: var(--color-light); /* Колір тексту в футері */
+}
+
+footer a span:first-child {
+    color: var(--color-main-brand) /* Колір "Web" в футері */
+}
+
+footer a span:last-child {
+    color: var(--color-light); /* Колір "Studio" в футері */
+}
