@@ -6,6 +6,7 @@
     --color-text: #757575;
     --color-gray: #f5f4fa;
     --color-black: #000000;
+}
 header a span.web {
     color: var(--color-main-brand) /* Колір "Web" в хедері */
 }

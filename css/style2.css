@@ -1,0 +1,24 @@
+:root{
+    --color-dark: #212121;
+    --color-light: #FFFFFF;
+    --color-main-brand: #2196F3;
+    --color-backgraund: #2F303A;
+    --color-text: #757575;
+    --color-gray: #f5f4fa;
+    --color-black: #000000;
+}
+header a span.web {
+    color: var(--color-main-brand) /* Колір "Web" в хедері */
+}
+header a span.studio {
+    color: var(--color-black); /* Колір "Studio" в хедері */
+}
+nav a, footer a {
+    color: var(--color-dark); /* Колір всіх посилань, крім "WebStudio", "Студія" та "info@devstudio.com" */
+}
+.studio-link, .email-link{
+    color: var(--color-main-brand) /* Колір посилань "Студія" та "info@devstudio.com" */
+}
+.phone-link{
+    color: var(--color-dark);
+}
