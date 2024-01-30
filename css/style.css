@@ -7,6 +7,54 @@
     --color-gray: #f5f4fa;
     --color-black: #000000;
 }
+.web .studio{
+    font-family: 'Raleway';
+    font-weight: 3%;
+}
+header > nav > ul > li > a{
+    font-family: 'Roboto';
+    font-weight: 2%;
+}
+h1{
+    font-family: 'Roboto';
+    font-weight: 6%;
+    font-size: 60px;
+}
+button{
+    font-family: 'Roboto';
+    font-weight: 6%;
+    font-size: 30px;
+}
+.osoblivosti > h3{
+    font-family: 'Roboto';
+    font-weight: 3%;
+}
+.osoblivosti > p{
+    font-family: 'Roboto';
+    font-weight: 3%;
+    font-size: 24px;
+}
+h2{
+    font-family: 'Roboto';
+    font-weight: 3%;
+}
+.our-team > p{
+    font-family: 'Roboto';
+    font-weight: 3%;
+}
+.our-team > h3{
+    font-family: 'Roboto';
+    font-weight: 3%;
+}
+footer > .web .studio{
+    font-family: 'Raleway';
+    font-weight: 3%;
+}
+footer > address{
+    font-family: 'Roboto';
+    font-weight: 3%;
+    font-size: 24px;
+}
 header a span.web {
     color: var(--color-main-brand) /* Колір "Web" в хедері */
 }
