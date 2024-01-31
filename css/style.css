@@ -7,49 +7,68 @@
     --color-gray: #f5f4fa;
     --color-black: #000000;
 }
-.web .studio{
+header a span.web{
     font-family: 'Raleway';
-    font-weight: 3%;
+    font-size: 26px;
+    font-weight: 700;
+}
+header a span.studio{
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
 }
 header > nav > ul > li > a{
     font-family: 'Roboto';
-    font-weight: 2%;
+    font-size: 14px;
+    font-weight: 500;
 }
 h1{
     font-family: 'Roboto';
-    font-weight: 6%;
+    font-size: 44px;
+    font-weight: 900;
 }
 button{
-    font-family: 'Roboto';
-    font-weight: 6%;
+    border-radius: 4px;
 }
 .osoblivosti > h3{
     font-family: 'Roboto';
-    font-weight: 3%;
+    font-size: 14px;
+    font-weight: 700;
 }
 .osoblivosti > p{
     font-family: 'Roboto';
-    font-weight: 3%;
+    font-size: 14px;
+    font-weight: 400;
 }
 h2{
     font-family: 'Roboto';
-    font-weight: 3%;
+    font-size: 36px;
+    font-weight: 700;
 }
 .our-team > p{
     font-family: 'Roboto';
-    font-weight: 3%;
+    font-size: 16px;
+    font-weight: 500;
 }
 .our-team > h3{
     font-family: 'Roboto';
-    font-weight: 3%;
+    font-size: 16px;
+    font-weight: 400;
 }
-footer > .web .studio{
+footer a span.web{
     font-family: 'Raleway';
-    font-weight: 3%;
+    font-size: 26px;
+    font-weight: 700;
+}
+footer a span.studio{
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
 }
 footer > address{
     font-family: 'Roboto';
-    font-weight: 3%;
+    font-size: 14px;
+    font-weight: 400;
 }
 header a span.web {
     color: var(--color-main-brand) /* Колір "Web" в хедері */
