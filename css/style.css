@@ -26,9 +26,11 @@ h1{
     font-family: 'Roboto';
     font-size: 44px;
     font-weight: 900;
+    align-items: center;
 }
 button{
     border-radius: 4px;
+    align-items: center;
 }
 .osoblivosti > h3{
     font-family: 'Roboto';
@@ -44,16 +46,19 @@ h2{
     font-family: 'Roboto';
     font-size: 36px;
     font-weight: 700;
+    align-items: center;
 }
 .our-team > p{
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
+    align-items: center;
 }
 .our-team > h3{
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
+    align-items: center;
 }
 footer a span.web{
     font-family: 'Raleway';
