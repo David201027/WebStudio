@@ -16,7 +16,7 @@ header a span.studio{
 .header-nav-list-item-link{
     color: var(--color-dark);
 }
-.header-nav-list-item :visited{
+.header-nav-list-item-link :visited{
     color: var(--color-main-brand);
 }
 .header-list-item-link-mail{
@@ -25,32 +25,32 @@ header a span.studio{
 .header-list-item-link{
     color: var(--color-text);
 }
-.main-section{
+.hero{
     background-color: var(--color-backgraund);
 }
-.main-section-h1{
+.hero-title{
     color: var(--color-light);
 }
-.main-section-button{
+.hero-button{
     background-color: var(--color-main-brand);
     color: var(--color-light);
 }
-.peculiarities-section-list-item-h3{
+.peculiarities-section-list-title{
     color: var(--color-dark);
 }
-.peculiarities-section-list-item-p{
+.description{
     color: var(--color-text);
 }
-.section-doing-h2{
+.section-doing-title{
     color: var(--color-dark);
 }
 .section-team{
     background-color: var(--color-gray);
 }
-.section-team-list-item-p{
+.name{
     color: var(--color-dark);
 }
-.section-team-list-item-h3{
+.profession{
     color: var(--color-text);
 }
 footer{
@@ -65,67 +65,63 @@ footer a span.studio{
 .footer-adress-list-item-link-maps{
     color: var(--color-light);
 }
-.footer-adress-list-item-link{
+.adress-list-item-link{
     color: var(--color-light);
     opacity: 0.6;
 }
 body{
     font-family: 'Roboto';
 }
-header-nav-link{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-}
-.header-nav-list-item-link{
+.header-list-item-mail{
     font-weight: 500;
     font-size: 14px;
 }
-.header-list-item{
+.header-list-item-link{
     font-weight: 500;
     font-size: 14px;
 }
-.main-section-h1{
+.hero-title{
     font-weight: 900;
     font-size: 44px;
 }
-.main-section-button{
+.hero-button{
     font-weight: 700;
     font-size: 14px;
 }
-.peculiarities-section-list-item-h3{
+.peculiarities-section-list-title{
     font-weight: 700;
     font-size: 14px;
 }
-.peculiarities-section-list-item-p{
+.description{
     font-weight: 400;
     font-size: 14px;
 }
-.section-doing-h2{
+.section-doing-title{
     font-weight: 700;
     font-size: 36px;
 }
-.section-team-h2{
+.section-team-title{
     font-weight: 700;
     font-size: 36px;
 }
-.section-team-list-item-p{
+.name{
     font-weight: 500;
     font-size: 16px;
 }
-.section-team-list-item-h3{
+.profession{
     font-weight: 400;
     font-size: 16px;
 }
 .web .studio{
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
 }
-.footer-adress-list-item-link-maps{
+.adress-list-item-link-maps{
     font-weight: 400;
     font-size: 14px;
 }
-.footer-adress-list-item-link{
+.adress-list-item-link{
     font-weight: 400;
     font-size: 14px;
 }
