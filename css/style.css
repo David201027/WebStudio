@@ -19,7 +19,7 @@ header a span.studio{
 .header-nav-list-item-link :visited{
     color: var(--color-main-brand);
 }
-.header-list-item-link-mail{
+.header-list-item-mail{
     color: var(--color-main-brand);
 }
 .header-list-item-link{
