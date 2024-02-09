@@ -13,13 +13,12 @@ header a span.web{
 header a span.studio{
     color: var(--color-black);
 }
-.header-nav-list-item-studio{
-    color: var(--color-main-brand)
-}
 .header-nav-list-item-link{
     color: var(--color-dark);
 }
-
+.header-nav-list-item-studio{
+    color: var(--color-main-brand)
+}
 .header-list-item-mail{
     color: var(--color-main-brand);
 }
