@@ -1,4 +1,4 @@
-:root{
+ :root{
     --color-dark: #212121;
     --color-light: #FFFFFF;
     --color-main-brand: #2196F3;
@@ -7,121 +7,119 @@
     --color-gray: #f5f4fa;
     --color-black: #000000;
 }
+body{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+}
 header a span.web{
     color: var(--color-main-brand);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
 }
 header a span.studio{
     color: var(--color-black);
+    font-weight: 500;
+    line-height: 1.17;
 }
-.header-nav-list-item-link{
-    color: var(--color-dark);
+.list-item-studio{
+    color: var(--color-main-brand);
+    font-weight: 500;
+    line-height: 1.17;
 }
 .header-nav-list-item-studio{
-    color: var(--color-main-brand)
-}
-.header-list-item-mail{
     color: var(--color-main-brand);
+    font-weight: 500;
+    line-height: 1.17;
+}
+.list-item-mail{
+    color: var(--color-main-brand);
+    font-weight: 500;
+    line-height: 1.17;
 }
 .header-list-item-link{
-    color: var(--color-text);
+    color: var(--color-dark);
+    font-weight: 500;
+    line-height: 1.17;
+}
+.hero-title{
+    color: var(--color-light);
+    font-weight: 900;
+    font-size: 44px;
+    align-items: center;
+    line-height: 1.36;
 }
 .hero{
     background-color: var(--color-backgraund);
 }
-.hero-title{
-    color: var(--color-light);
-}
 .hero-button{
     background-color: var(--color-main-brand);
     color: var(--color-light);
+    align-items: center;
+    line-height: 1.87;
 }
-.peculiarities-section-list-title{
-    color: var(--color-dark);
+.peculiarities-title{
+    line-height: 1.17;
 }
 .description{
     color: var(--color-text);
+    font-weight: 400;
+    line-height: 1.71;
 }
 .section-doing-title{
     color: var(--color-dark);
+    font-size: 36px;
+    align-items: center;
+    line-height: 1.17;
 }
 .section-team{
     background-color: var(--color-gray);
 }
+.section-team-title{
+    background-color: var(--color-gray);
+    color: var(--color-dark);
+    font-size: 36px;
+    align-items: center;
+    line-height: 1.17;
+}
 .name{
     color: var(--color-dark);
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    line-height: 1.17;
 }
 .profession{
     color: var(--color-text);
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    line-height: 1.17;
 }
 footer{
     background-color: var(--color-backgraund);
 }
 footer a span.web{
     color: var(--color-main-brand);
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.17;
 }
 footer a span.studio{
     color: var(--color-light);
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.17;
 }
 .adress-list-item-link-maps{
-    color: var(--color-light)
+    color: var(--color-light);
+    font-weight: 400;
+    line-height: 1.71;
 }
 .adress-list-item-link{
     color: var(--color-light);
     opacity: 0.6;
-}
-body{
-    font-family: 'Roboto';
-}
-.header-list-item-mail{
-    font-weight: 500;
-    font-size: 14px;
-}
-.header-list-item-link{
-    font-weight: 500;
-    font-size: 14px;
-}
-.hero-title{
-    font-weight: 900;
-    font-size: 44px;
-}
-.hero-button{
-    font-weight: 700;
-    font-size: 14px;
-}
-.peculiarities-section-list-title{
-    font-weight: 700;
-    font-size: 14px;
-}
-.description{
     font-weight: 400;
-    font-size: 14px;
-}
-.section-doing-title{
-    font-weight: 700;
-    font-size: 36px;
-}
-.section-team-title{
-    font-weight: 700;
-    font-size: 36px;
-}
-.name{
-    font-weight: 500;
-    font-size: 16px;
-}
-.profession{
-    font-weight: 400;
-    font-size: 16px;
-}
-.web .studio{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-}
-.adress-list-item-link-maps{
-    font-weight: 400;
-    font-size: 14px;
-}
-.adress-list-item-link{
-    font-weight: 400;
-    font-size: 14px;
+    line-height: 1.71;
 }
