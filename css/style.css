@@ -28,7 +28,12 @@ header a span.studio{
     font-weight: 500;
     line-height: 1.17;
 }
-.header-nav-list-item-studio{
+.list-item-link{
+    color: var(--color-dark);
+    font-weight: 500;
+    line-height: 1.17;
+}
+.list-item-studio{
     color: var(--color-main-brand);
     font-weight: 500;
     line-height: 1.17;
