@@ -93,6 +93,7 @@
 }
 .footer{
     background-color: var(--color-backgraund);
+    transform: none;
 }
 .footer-web{
     color: var(--color-main-brand);
@@ -110,7 +111,6 @@
     line-height: 1.71;
 }
 .adress-list-item-link{
-    font-family: 'Roboto';
     color: var(--color-light);
     opacity: 0.6;
     font-weight: 400;
