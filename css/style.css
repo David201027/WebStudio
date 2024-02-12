@@ -7,46 +7,42 @@
     --color-gray: #f5f4fa;
     --color-black: #000000;
 }
-body{
+.body{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.17;
 }
-header a span.web{
+.header-web{
+    font-family: 'Raleway';
     color: var(--color-main-brand);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.17;
 }
-header a span.studio{
+.header-studio{
+    font-family: 'Raleway';
     color: var(--color-black);
     font-weight: 500;
-    line-height: 1.17;
 }
 .list-item-studio{
     color: var(--color-main-brand);
     font-weight: 500;
-    line-height: 1.17;
 }
 .list-item-link{
     color: var(--color-dark);
     font-weight: 500;
-    line-height: 1.17;
 }
 .list-item-studio{
     color: var(--color-main-brand);
     font-weight: 500;
-    line-height: 1.17;
 }
 .list-item-mail{
     color: var(--color-main-brand);
     font-weight: 500;
-    line-height: 1.17;
 }
 .header-list-item-link{
     color: var(--color-dark);
     font-weight: 500;
-    line-height: 1.17;
 }
 .hero-title{
     color: var(--color-light);
@@ -64,9 +60,6 @@ header a span.studio{
     align-items: center;
     line-height: 1.87;
 }
-.peculiarities-title{
-    line-height: 1.17;
-}
 .description{
     color: var(--color-text);
     font-weight: 400;
@@ -76,7 +69,6 @@ header a span.studio{
     color: var(--color-dark);
     font-size: 36px;
     align-items: center;
-    line-height: 1.17;
 }
 .section-team{
     background-color: var(--color-gray);
@@ -86,36 +78,31 @@ header a span.studio{
     color: var(--color-dark);
     font-size: 36px;
     align-items: center;
-    line-height: 1.17;
 }
 .name{
     color: var(--color-dark);
     font-weight: 500;
     font-size: 16px;
     align-items: center;
-    line-height: 1.17;
 }
 .profession{
     color: var(--color-text);
     font-weight: 400;
     font-size: 16px;
     align-items: center;
-    line-height: 1.17;
 }
-footer{
+.footer{
     background-color: var(--color-backgraund);
 }
-footer a span.web{
+.footer-web{
     color: var(--color-main-brand);
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 1.17;
 }
-footer a span.studio{
+.footer-studio{
     color: var(--color-light);
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 1.17;
 }
 .adress-list-item-link-maps{
     color: var(--color-light);
@@ -123,6 +110,7 @@ footer a span.studio{
     line-height: 1.71;
 }
 .adress-list-item-link{
+    font-family: 'Roboto';
     color: var(--color-light);
     opacity: 0.6;
     font-weight: 400;
