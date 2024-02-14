@@ -7,32 +7,61 @@
     --color-gray: #f5f4fa;
     --color-black: #000000;
 }
-header a span.web {
-    color: var(--color-main-brand) /* Колір "Web" в хедері */
+.body{
+    font-family: 'Roboto';
+    font-weight: ;
 }
-header a span.studio {
-    color: var(--color-black); /* Колір "Studio" в хедері */
+.header-web{
+    color: var(--color-main-brand);
+    font-weight: 700;
+    font-size: 26px;
 }
-nav a, footer a {
-    color: var(--color-dark); /* Колір всіх посилань, крім "WebStudio", "Студія" та "info@devstudio.com" */
+.header-studio{
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 26px;
 }
-.studio-link, .email-link{
-    color: var(--color-main-brand) /* Колір посилань "Студія" та "info@devstudio.com" */
+.list-item{
+    font-weight: 500;
+    font-size: 14px;
 }
-.phone-link{
+.studio-link{
     color: var(--color-dark);
 }
-footer{
+.filter-list-item{
+    font-weight: 500;
+    font-size: 16px;
+    border: #F5F4FA;
+    border-radius: 4px;
+}
+.hero-list-item-title{
+    font-size: 18px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer{
     background-color: var(--color-backgraund);
 }
-footer a{
-    color: var(--color-light); /* Колір тексту в футері */
+.footer-web{
+    color: var(--color-main-brand);
+    font-family: 'Raleway';
+    font-size: 26px;
 }
-
-.web{
-    color: var(--color-main-brand) /* Колір "Web" в футері */
+.footer-studio{
+    color: var(--color-light);
+    font-family: 'Raleway';
+    font-size: 26px;
 }
-
-.studio{
-    color: var(--color-light); /* Колір "Studio" в футері */
+.adress-list-item-link-maps{
+    color: var(--color-light);
+    font-weight: 400;
+    line-height: 1.71;
+}
+.adress-list-item-link{
+    color: var(--color-light);
+    opacity: 0.6;
+    font-weight: 400;
+    line-height: 1.71;
 }

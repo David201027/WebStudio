@@ -13,36 +13,68 @@
     font-size: 14px;
     line-height: 1.17;
 }
+.header{
+    width: 1600px;
+    height: 80px;
+}
 .header-web{
     font-family: 'Raleway';
     color: var(--color-main-brand);
     font-weight: 500;
     font-size: 14px;
+    width: 145px;
+    height: 31px;
+    top: 24px;
+    left: 215px;
 }
 .header-studio{
     font-family: 'Raleway';
     color: var(--color-black);
     font-weight: 500;
+    width: 145px;
+    height: 31px;
+    top: 24px;
+    left: 215px;
 }
 .list-item-studio{
     color: var(--color-main-brand);
     font-weight: 500;
+    width: 45px;
+    height: 16px;
+    top: 32px;
+    left: 453px;
 }
-.list-item-link{
+.portpholio{
     color: var(--color-dark);
     font-weight: 500;
+    width: 72px;
+    height: 16px;
+    top: 32px;
+    left: 548px;
 }
-.list-item-studio{
-    color: var(--color-main-brand);
-    font-weight: 500;
-}
-.list-item-mail{
-    color: var(--color-main-brand);
-    font-weight: 500;
-}
-.header-list-item-link{
+.kontakts{
     color: var(--color-dark);
     font-weight: 500;
+    width: 64px;
+    height: 16px;
+    top: 32px;
+    left: 670px;
+}
+.email-link{
+    color: var(--color-main-brand);
+    font-weight: 500;
+    width: 135px;
+    height: 16px;
+    top: 32px;
+    left: 1078px;
+}
+.phone-link{
+    color: var(--color-text);
+    font-weight: 500;
+    width: 122px;
+    height: 16px;
+    top: 32px;
+    left: 1263px;
 }
 .hero-title{
     color: var(--color-light);
@@ -50,20 +82,72 @@
     font-size: 44px;
     align-items: center;
     line-height: 1.36;
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
 }
 .hero{
     background-color: var(--color-backgraund);
+    width: 1600px;
+    height: 600px;
+    top: 80px;
 }
 .hero-button{
     background-color: var(--color-main-brand);
     color: var(--color-light);
     align-items: center;
     line-height: 1.87;
+    width: 216px;
+    height: 50px;
+    top: 430px;
+    left: 692px;
+    border-radius: 4px;
 }
-.description{
+.peculiarities-title-first{
+    color: var(--color-dark);
+    width: 270px;
+    height: 16px;
+    top: 774px;
+    left: 215px;
+}
+.description-first{
     color: var(--color-text);
     font-weight: 400;
-    line-height: 1.71;
+    width: 270px;
+    height: 72px;
+    top: 800px;
+    left: 215px;
+}
+.peculiarities-title-second{
+    color: var(--color-dark);
+    width: 270px;
+    height: 16px;
+    top: 774px;
+    left: 515px;
+}
+.description-second{
+    color: var(--color-text);
+    font-weight: 400;
+    width: 270px;
+    height: 48px;
+    top: 800px;
+    left: 515px;
+}
+.peculiarities-title-third{
+    color: var(--color-dark);
+    width: 270px;
+    height: 16px;
+    top: 774px;
+    left: 815px;
+}
+.description-third{
+    color: var(--color-text);
+    font-weight: 400;
+    width: 270px;
+    height: 48px;
+    top: 800px;
+    left: 815px;
 }
 .section-doing-title{
     color: var(--color-dark);
