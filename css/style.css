@@ -36,7 +36,7 @@
     top: 24px;
     left: 215px;
 }
-.list-item-studio{
+.studio-link{
     color: var(--color-main-brand);
     font-weight: 500;
     width: 45px;
@@ -44,7 +44,7 @@
     top: 32px;
     left: 453px;
 }
-.portpholio{
+.portpholio-link{
     color: var(--color-dark);
     font-weight: 500;
     width: 72px;
@@ -52,7 +52,7 @@
     top: 32px;
     left: 548px;
 }
-.kontakts{
+.kontakts-link{
     color: var(--color-dark);
     font-weight: 500;
     width: 64px;
@@ -136,6 +136,7 @@
 }
 .peculiarities-title-third{
     color: var(--color-dark);
+    border: var(--color-light);
     width: 270px;
     height: 16px;
     top: 774px;
