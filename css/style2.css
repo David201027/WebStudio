@@ -6,6 +6,7 @@
     --color-text: #757575;
     --color-gray: #f5f4fa;
     --color-black: #000000;
+    --color-footer-a: rgba(255, 255, 255, 0.6);
 }
 .body{
     font-family: 'Roboto';

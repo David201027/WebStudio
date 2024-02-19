@@ -33,15 +33,17 @@
     width: 145px;
     height: 31px;
 }
-.nav-link {
-    position: relative;
-    display: inline-block;
-}
 .studio-link{
-    color: var(--color-main-brand);
+    color: var(--color-dark);
     font-weight: 500;
     width: 45px;
     height: 16px;
+}
+.studio-link :active{
+   color: var(--color-main-brand);
+}
+.studio-link :hover{
+    color: var(--color-main-brand);
 }
 .portpholio-link{
     color: var(--color-dark);
@@ -49,23 +51,47 @@
     width: 72px;
     height: 16px;
 }
+.portpholio-link :active{
+    color: var(--color-main-brand);
+}
+.portpholio-link :hover{
+    color: var(--color-main-brand);
+}
 .kontakts-link{
     color: var(--color-dark);
     font-weight: 500;
     width: 64px;
     height: 16px;
 }
-.email-link{
+.kontakts-link :active{
     color: var(--color-main-brand);
+}
+.kontakts-link :hover{
+    color: var(--color-main-brand);
+}
+.email-link{
+    color: var(--color-text);
     font-weight: 500;
     width: 135px;
     height: 16px;
+}
+.email-link :active{
+    color: var(--color-main-brand);
+}
+.email-link :hover{
+    color: var(--color-main-brand);
 }
 .phone-link{
     color: var(--color-text);
     font-weight: 500;
     width: 122px;
     height: 16px;
+}
+.phone-link :active{
+    color: var(--color-main-brand);
+}
+.phone-link :hover{
+    color: var(--color-main-brand);
 }
 .hero-title{
     color: var(--color-light);
