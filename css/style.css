@@ -17,86 +17,36 @@
 .conteiner{
     width: 1200px;
     margin: 0 auto;
-    pading: 0.15px;
-    border: 1px #000000;
+    padding: 0 15px;
+    border: 1px solid red;
 }
 .header{
-    width: 1600px;
-    height: 80px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    background-color: yellow;
 }
 .header-web{
     font-family: 'Raleway';
     color: var(--color-main-brand);
     font-weight: 500;
     font-size: 14px;
-    width: 145px;
-    height: 31px;
 }
 .header-studio{
     font-family: 'Raleway';
     color: var(--color-black);
     font-weight: 500;
-    width: 145px;
-    height: 31px;
 }
-.studio-link{
+.nav-list-link{
+    display: inline;
     color: var(--color-dark);
     font-weight: 500;
-    width: 45px;
-    height: 16px;
 }
-.studio-link :active{
-   color: var(--color-main-brand);
-}
-.studio-link :hover{
-    color: var(--color-main-brand);
-}
-.portpholio-link{
-    color: var(--color-dark);
-    font-weight: 500;
-    width: 72px;
-    height: 16px;
-}
-.portpholio-link :active{
-    color: var(--color-main-brand);
-}
-.portpholio-link :hover{
-    color: var(--color-main-brand);
-}
-.kontakts-link{
-    color: var(--color-dark);
-    font-weight: 500;
-    width: 64px;
-    height: 16px;
-}
-.kontakts-link :active{
-    color: var(--color-main-brand);
-}
-.kontakts-link :hover{
-    color: var(--color-main-brand);
-}
-.email-link{
+.list-link{
+    display: inline;
     color: var(--color-text);
     font-weight: 500;
-    width: 135px;
-    height: 16px;
 }
-.email-link :active{
-    color: var(--color-main-brand);
-}
-.email-link :hover{
-    color: var(--color-main-brand);
-}
-.phone-link{
-    color: var(--color-text);
-    font-weight: 500;
-    width: 122px;
-    height: 16px;
-}
-.phone-link :active{
-    color: var(--color-main-brand);
-}
-.phone-link :hover{
+.active-link{
     color: var(--color-main-brand);
 }
 .hero-title{
@@ -104,65 +54,43 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    width: 696px;
-    height: 120px;
 }
 .hero{
     background-color: var(--color-backgraund);
-    width: 1600px;
-    height: 600px;
     top: 80px;
 }
 .hero-button{
     background-color: var(--color-main-brand);
     color: var(--color-light);
     line-height: 1.87;
-    width: 216px;
-    height: 50px;
 }
 .peculiarities-title-first{
     color: var(--color-dark);
-    width: 270px;
-    height: 16px;
 }
 .description-first{
     color: var(--color-text);
     font-weight: 400;
-    width: 270px;
-    height: 72px;
 }
 .peculiarities-title-second{
     color: var(--color-dark);
-    width: 270px;
-    height: 16px;
 }
 .description-second{
     color: var(--color-text);
     font-weight: 400;
-    width: 270px;
-    height: 48px;
 }
 .peculiarities-title-third{
     color: var(--color-light);
-    width: 270px;
-    height: 16px;
 }
 .description-third{
     color: var(--color-text);
     font-weight: 400;
-    width: 270px;
-    height: 48px;
 }
 .peculiarities-title-fourth{
     color: var(--color-light);
-    width: 270px;
-    height: 16px;
 }
 .description-fourth{
     color: var(--color-text);
     font-weight: 400;
-    width: 270px;
-    height: 48px;
 }
 .section-doing-title{
     color: var(--color-dark);
