@@ -68,8 +68,8 @@
     color: var(--color-light);
     line-height: 1.87;
 }
-.hero-button :hover{
-    color: var(--coolor-active);
+.hero-button :active{
+    background-color: var(--coolor-active);
 }
 .peculiarities-title-first{
     color: var(--color-dark);
