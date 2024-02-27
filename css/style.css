@@ -1,4 +1,4 @@
- :root{
+:root{
     --color-dark: #212121;
     --color-light: #FFFFFF;
     --color-main-brand: #2196F3;
@@ -19,14 +19,12 @@
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    border: 1px solid red;
+    border: 1px dotted red;
 }
 .header{
-    padding-top: 24px;
-    padding-bottom: 25px;
     background-color: yellow;
 }
-.header-web{
+.nav-link{
     font-family: 'Raleway';
     color: var(--color-main-brand);
     font-weight: 500;
@@ -37,13 +35,16 @@
     color: var(--color-black);
     font-weight: 500;
 }
-.nav-list-link{
+.list-item{
     display: inline;
+}
+.nav-list-link{
     color: var(--color-dark);
-    font-weight: 500;
+}
+.nav-list-item{
+    color: var(--color-text);
 }
 .list-link{
-    display: inline;
     color: var(--color-text);
     font-weight: 500;
 }
@@ -71,33 +72,12 @@
 .hero-button :active{
     background-color: var(--coolor-active);
 }
-.peculiarities-title-first{
-    color: var(--color-dark);
+.peculiarities-section-list{
+    display: inline;
+    margin: 0px 215px;
 }
-.description-first{
-    color: var(--color-text);
-    font-weight: 400;
-}
-.peculiarities-title-second{
-    color: var(--color-dark);
-}
-.description-second{
-    color: var(--color-text);
-    font-weight: 400;
-}
-.peculiarities-title-third{
-    color: var(--color-light);
-}
-.description-third{
-    color: var(--color-text);
-    font-weight: 400;
-}
-.peculiarities-title-fourth{
-    color: var(--color-light);
-}
-.description-fourth{
-    color: var(--color-text);
-    font-weight: 400;
+.peculiarities-list-item{
+    display: inline;
 }
 .section-doing-title{
     color: var(--color-dark);
@@ -124,7 +104,7 @@
 .footer{
     background-color: var(--color-backgraund);
 }
-.footer-web{
+.footer-link{
     color: var(--color-main-brand);
     font-family: 'Raleway';
     font-size: 26px;
