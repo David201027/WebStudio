@@ -42,6 +42,7 @@
     color: var(--color-dark);
 }
 .nav-list-item{
+    display: inline;
     color: var(--color-text);
 }
 .list-link{
@@ -71,6 +72,13 @@
 }
 .hero-button :active{
     background-color: var(--coolor-active);
+}
+.peculiarities-title{
+    color: var(--color-dark);
+}
+.description{
+    color: var(--color-text);
+    font-weight: 400;
 }
 .peculiarities-section-list{
     display: inline;
