@@ -73,6 +73,9 @@
 .hero-button :active{
     background-color: var(--coolor-active);
 }
+.peculiarities-section{
+    background-color: lightskyblue;
+}
 .peculiarities-title{
     color: var(--color-dark);
 }
@@ -80,11 +83,14 @@
     color: var(--color-text);
     font-weight: 400;
 }
-.peculiarities-section-list{
-    display: inline;
-    margin: 0px 215px;
-}
 .peculiarities-list-item{
+    display: inline;
+}
+.section-doing{
+    background-color: lightpink;
+}
+
+.section-doing-list-item{
     display: inline;
 }
 .section-doing-title{
@@ -98,6 +104,9 @@
     background-color: var(--color-gray);
     color: var(--color-dark);
     font-size: 36px;
+}
+.section-team-list-item{
+    display: inline;
 }
 .name{
     color: var(--color-dark);
