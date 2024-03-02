@@ -3,98 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body class="body">
-    <header>
-        <nav>
-            <a class="nav-link" href="./index.html" target="_self">Web<span class="header-studio">Studio</span></a>
-            <ul class="nav-list">
-                <li class="list-item"><a class="studio-link" href="./index.html" target="_self">Студія</a></li>
-                <li class="list-item"><a class="portpholio" href="./index2.html" target="_self">Портфоліо</a></li>
-                <li class="list-item"><a class="list-item-link-" href="./" target="_self" class="kontakts">Контакти</a></li>
+        <header class="header">
+            <div class="conteiner">
+            <nav class="nav">
+                <a class="nav-link" href="./index.html" target="_self">Web<span class="header-studio">Studio</span></a>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="./index.html" target="_self" class="nav-list-link active-link">Студія</a></li>
+                    <li class="nav-list-item"><a href="./portfolio.html" target="_self" class="nav-list-link">Портфоліо</a></li>
+                    <li class="nav-list-item"><a href="./" target="_self" class="nav-list-link">Контакти</a></li>
+                </ul>
+            </nav>
+            <ul>
+                <li class="list-item"><a href="mailto:info@devstudio.com" class="list-link">info@devstudio.com</a></li>
+                <li class="list-item"><a href="tel:+380961111111" class="list-link">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a class="list-item-link-header-mail" href="mailto:info@devstudio.com" class="email-link">info@devstudio.com</a></li>
-            <li><a class="list-item-link-header-phone" href="tel:+380961111111" class="phone-link">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
-    <main>
-        <section class="filter">
-            <h1 class="filter-title">Фільтр</h1>
-            <ul class="filter-list">
-                <li class="filter-list-item"><a class="filter-link" href="./index2.html" target="_self">Усі</a></li>
-                <li class="filter-list-item"><a class="filter-link" href="./filter/index3.html" target="_self">Веб-сайти</a></li>
-                <li class="filter-list-item"><a class="filter-link" href="./filter/index4.html" target="_self">Додатки</a></li>
-                <li class="filter-list-item"><a class="filter-link" href="./filter/index5.html" target="_self">Дизайн</a></li>
-                <li class="filter-list-item"><a class="filter-link" href="./filter/index6.html" target="_self">Маркетинг</a></li>
-            </ul>
-        </section>
-        <section class="hero">
-            <h1 class="hero-title">Портфоліо</h1>
-            <ul class="hero-list">
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/macbookpro.jpg" alt="macbookpro">
-                    <h3 class="hero-list-item-title">Технокряк</h3>
-                    <p class="description">Веб-сайт</p>
-                </li>
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/basketball.jpg" alt="basketball">
-                    <h3 class="hero-list-item-title">Постер New Orlean vs Golden Star</h3>
-                    <p class="description">Дизайн</p>
-                </li>
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/seafood.jpg" alt="seafood">
-                    <h3 class="hero-list-item-title">Ресторан Seafood</h3>
-                    <p class="description">Додатoк</p>
-                </li>
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/pods.jpg" alt="AirPods Max">
-                    <h3 class="hero-list-item-title">Проєкт Prime</h3>
-                    <p class="description">Маркетинг</p>
-                </li>
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/boxes.jpg" alt="boxes">
-                    <h3 class="hero-list-item-title">Проєкт Boxes</h3>
-                    <p class="description">Додаток</p>
-                </li>
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/mac.jpg" alt="mac">
-                    <h3 class="hero-list-item-title">Inspiration has no Borders</h3>
-                    <p class="description"Веб-сайт</p>
-                </li>
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/book.jpg" alt="book">
-                    <h3 class="hero-list-item-title">Видання Limited Edition</h3>
-                    <p class="description">Дизайн</p>
-                </li>
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/labeltag.jpg" alt="labeltag">
-                    <h3 class="hero-list-item-title">Проєкт LAB</h3>
-                    <p class="description">Маркетинг</p>
-                </li>
-                <li class="hero-list-item">
-                    <img class="hero-image" src="./images/growingbusiness.jpg" alt="macgrowing">
-                    <h3 class="hero-list-item-title">Growing Business</h3>
-                    <p class="description">Додаток</p>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer class="footer">
-        <a class="footer-link" href="./index.html">Web<span class="footer-studio">Studio</span></a>
-        <address class="adress">
-            <ul class="footer-adress-list">
-                <li class="adress-list-item"><a class="adress-list-item-link-maps" href="https://www.google.com/maps/search/%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%BF%D1%80-%D1%82+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26/@50.4643905,30.4201671,12.3z?entry=ttu" target="_blank">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li class="adress-list-item"><a class="adress-list-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="adress-list-item"><a class="adress-list-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
-    </footer>
+            </div>
+        </header>
+        <main>
+            
+        </main>
+        <footer class="footer">
+            <div class="conteiner">
+                <a class="footer-link" href="./index.html">Web<span class="footer-studio">Studio</span></a>
+                <address class="adress">
+                    <ul class="footer-adress-list">
+                        <li class="adress-list-item"><a class="adress-list-item-link-maps" href="https://www.google.com/maps/search/%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%BF%D1%80-%D1%82+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26/@50.4643905,30.4201671,12.3z?entry=ttu" target="_blank">м. Київ, пр-т Лесі Українки, 26</a></li>
+                        <li class="adress-list-item"><a class="adress-list-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="adress-list-item"><a class="adress-list-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+        </footer>
 </body>
 </html>
