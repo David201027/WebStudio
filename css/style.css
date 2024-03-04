@@ -21,10 +21,16 @@
     padding: 0 15px;
     border: 1px dotted red;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.conteiner-footer{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px dotted red;
 }
 .header{
     background-color: yellow;
@@ -35,7 +41,6 @@
     color: var(--color-main-brand);
     font-weight: 500;
     font-size: 26px;
-    text-decoration: none;
 }
 .header-studio{
     font-family: 'Raleway';
@@ -43,6 +48,7 @@
     font-weight: 500;
     font-size: 26px;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .nav{
@@ -62,19 +68,22 @@
 .nav-list-item{
     color: var(--color-text);
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .header-list{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
     display: flex;
+    align-items: end;
 }
 .list-item{
-    margin-right: 20px;;
+    display: flex;
+    align-items: end;
 }
 .list-link{
     color: var(--color-text);
     text-decoration: none;
+    display: flex;
+    text-align: end;
 }
 .list-link :hover{
     color: var(--color-main-brand);
@@ -82,12 +91,20 @@
 .active-link{
     color: var(--color-main-brand);
 }
+.conteiner-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px dotted red;
+}
 .hero{
     background-color: var(--color-backgraund);
-    top: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    padding: 0;
 }
 .hero-title{
     color: var(--color-light);
@@ -103,16 +120,22 @@
 .hero-button :active{
     background-color: var(--coolor-active);
 }
+.conteiner-peculiarities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px dotted red;
+}
 .peculiarities-section{
     background-color: lightskyblue;
 }
 .peculiarities-section-list{
+    display: flex;
     flex-direction: row;
-    align-items: center;
-}
-.peculiarities-list-item{
-    flex-direction: row;
-    align-items: center;
+    padding: 0;
 }
 .peculiarities-title{
     color: var(--color-dark);
@@ -120,6 +143,20 @@
 .description{
     color: var(--color-text);
     font-weight: 400;
+}
+.conteiner-doing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px dotted red;
+}
+.section-doing-list{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
 }
 .section-doing{
     background-color: lightpink;
@@ -130,6 +167,11 @@
 }
 .section-team{
     background-color: var(--color-gray);
+}
+.section-team-list{
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 .section-team-title{
     background-color: var(--color-gray);
