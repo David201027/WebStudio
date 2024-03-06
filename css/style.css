@@ -123,6 +123,8 @@
     background-color: var(--color-main-brand);
     color: var(--color-light);
     line-height: 1.87;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .hero-button :active{
     background-color: var(--coolor-active);
@@ -150,6 +152,11 @@
 }
 .peculiarities-title{
     color: var(--color-dark);
+}
+.peculiarities-section-title{
+    color: var(--color-dark);
+    font-size: 36px;
+    padding-bottom: 50px;
 }
 .description{
     color: var(--color-text);
