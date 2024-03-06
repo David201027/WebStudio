@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body class="body">
-    <div class="margin">
         <header class="header">
             <div class="conteiner">
             <nav class="nav">
@@ -25,7 +24,7 @@
             </nav>
             <ul class="header-list">
                 <li class="list-item"><a href="mailto:info@devstudio.com" class="list-link">info@devstudio.com</a></li>
-                <li class="list-item"><a href="tel:+380961111111" class="list-link">+38 096 111 11 11</a></li>
+                <li class="list-item"><a href="tel:+380961111111" class="list-link-tel">+38 096 111 11 11</a></li>
             </ul>
             </div>
         </header>
@@ -52,7 +51,7 @@
                             <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
                             <p class="description">Так само консультація з широким <br> активом значною мірою зумовлює.</p>
                         </li>
-                        <li class="peculiarities-list-item">
+                        <li class="peculiarities-section-list-item">
                             <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                             <p class="description">Значимість цих проблем настільки <br> очевидна, що реалізація планових <br> завдань.</p>
                         </li>
@@ -63,35 +62,43 @@
                 <div class="conteiner-doing">
                     <h2 class="section-doing-title">Чим ми займаємося</h2>
                     <ul class="section-doing-list">
-                        <li class="section-doing-list-item"><img class="section-doing-list-ltem-image" src="./images/box1.jpg" alt="Людина створюе код"></li>
-                        <li class="section-doing-list-item"><img class="section-doing-list-ltem-image" src="./images/box2.jpg" alt="Людина створюе дизайн"></li>
-                        <li class="section-doing-list-item"><img class="section-doing-list-ltem-image" src="./images/box3.jpg" alt="Людина вибирае"></li>
+                        <li class="doing-item"><img class="doing-image" src="./images/box1.jpg" alt="Людина створюе код"></li>
+                        <li class="doing-item"><img class="doing-image" src="./images/box2.jpg" alt="Людина створюе дизайн"></li>
+                        <li class="section-doing-item"><img class="doing-image" src="./images/box3.jpg" alt="Людина вибирае"></li>
                     </ul>
                 </div>
             </section>
             <section class="section-team">
-                <div class="conteiner">
+                <div class="conteiner-team">
                     <h2 class="section-team-title">Наша команда</h2>
                     <ul class="section-team-list">
                         <li class="section-team-list-item">
                             <img class="team-image" src="./images/igor.jpg" alt="Ігор Дем'яненко">
-                            <p class="name">Ігор Дем'яненко</p>
-                            <h3 class="profession">Product Designer</h3>
+                            <div class="text-container">
+                                <p class="name">Ігор Дем'яненко</p>
+                                <h3 class="profession">Product Designer</h3>
+                            </div>
                         </li>
                         <li class="section-team-list-item">
                             <img class="team-image" src="./images/olha.jpg" alt="Ольга Рєпіна">
-                            <p class="name">Ольга Рєпіна</p>
-                            <h3 class="profession">Frontend Developer</h3>
+                            <div class="text-container">
+                                <p class="name">Ольга Рєпіна</p>
+                                <h3 class="profession">Frontend Developer</h3>
+                            </div>
                         </li>
                         <li class="section-team-list-item">
                             <img class="team-image" src="./images/mikola.jpg" alt="Микола Тарасов">
-                            <p class="name">Микола Тарасов</p>
-                            <h3 class="profession">Marketing</h3>
+                            <div class="text-container">
+                                <p class="name">Микола Тарасов</p>
+                                <h3 class="profession">Marketing</h3>
+                            </div>
                         </li>
-                        <li class="section-team-list-item">
+                        <li class="team-list-item">
                             <img class="team-image" src="./images/micailo.jpg" alt="Михайло Єрмаков">
-                            <p class="name">Михайло Єрмаков</p>
-                            <h3 class="profession">UI Designer</h3>
+                            <div class="text-container">
+                                <p class="name">Михайло Єрмаков</p>
+                                <h3 class="profession">UI Designer</h3>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -109,6 +116,5 @@
                 </address>
             </div>
         </footer>
-    </div>
 </body>
 </html>
