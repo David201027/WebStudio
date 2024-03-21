@@ -7,6 +7,7 @@
     --color-gray: #f5f4fa;
     --color-black: #000000;
     --color-footer-a: rgba(255, 255, 255, 0.6);
+    --color-div: #EEEEEE;
 }
 .body{
     font-family: 'Roboto';
@@ -94,7 +95,8 @@
     text-align: center;
 }
 .project-list-item {
-    width: 30%;
+    width: 370px;
+    height: auto;
     margin: 10px;
     text-align: center;
 }
@@ -106,7 +108,21 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.project-item-title{
+    color: var(--color-dark);
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+.description{
+    color: var(--color-text);
+    padding-bottom: 20px;
+    padding-top: 2px;
+}
+.div-text{
+    width: 370px;
+    height: 110px;
+    background-color: var(--color-div);
+}
 .footer{
     background-color: var(--color-backgraund);
     padding-top: 60px;

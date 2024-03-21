@@ -18,18 +18,25 @@
 .conteiner{
     width: 1200px;
     margin: 0 auto;
-    padding: 0 215;
-    /* border: 1px dotted red; */
+    border: 1px dotted red;
 }
-.header{
-    /* background-color: #e4dfb3; */
-    padding-top: 24px;
-    padding-bottom: 25px;
+.grow{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.header-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .nav-link{
     font-family: 'Raleway';
@@ -53,6 +60,7 @@
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 50px;
 }
 .nav-list-link{
     color: var(--color-dark);
@@ -62,30 +70,30 @@
     color: var(--color-text);
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    flex-direction:
 }
 .header-list{
     display: flex;
     align-items: end;
+    gap: 50px;
 }
 .list-item{
     display: flex;
     align-items: end;
-    margin-right: 50px;
 }
 .list-link{
     color: var(--color-text);
     text-decoration: none;
     display: flex;
     text-align: end;
-    padding-left: 294px;
+    margin-left: 344px;
 }
 .list-link-tel{
     color: var(--color-text);
     text-decoration: none;
     display: flex;
     text-align: end;
-    padding-left: 50px;
+    margin-left: 50px;
 }
 .list-item:hover{
     color: var(--color-main-brand);
@@ -95,21 +103,15 @@
 }
 .hero{
     background-color: var(--color-backgraund);
-    display: flex;
-    flex-direction: row;
-    padding: 200px 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding: 200px 120px;
 }
 .hero-title{
     color: var(--color-light);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 6%;
 }
 .hero-button{
     background-color: var(--color-main-brand);
@@ -119,7 +121,7 @@
     font-weight: 700px;
     font-size: 16px;
     line-height: 30px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 .hero-button :active{
@@ -127,23 +129,14 @@
 }
 .peculiarities-section{
     padding-top: 75px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 .peculiarities-section-list{
     display: flex;
-    flex-direction: row;
-    padding: 0;
     text-align: center;
+    gap: 30px;
 }
 .peculiarities-list-item{
-    padding-left: 30px;
-}
-.peculiarities-section-list-item{
-    padding-left: 30px;
+    text-align: left;
 }
 .peculiarities-title{
     color: var(--color-dark);
@@ -151,7 +144,7 @@
 .peculiarities-section-title{
     color: var(--color-dark);
     font-size: 36px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .description{
     color: var(--color-text);
@@ -159,16 +152,11 @@
 }
 .section-doing{
     /* background-color: lightpink; */
-    padding-top: 113px;
-    padding-bottom: 94px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-top: 113px;
+    margin-bottom: 94px;
 }
 .doing-item{
-    padding-right: 30px;
+    margin-right: 30px;
 }
 .section-doing-list{
     display: flex;
@@ -185,32 +173,32 @@
 .section-doing-title{
     color: var(--color-dark);
     font-size: 36px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .section-team{
     background-color: var(--color-gray);
     padding-bottom: 94px;
     padding-top: 94px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 .section-team-list{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     list-style: none;
     padding: 0;
-    justify-content: center;
 }
 .section-team-list-item{
-    padding-right: 30px;
+    margin-right: 30px;
     text-align: center;
 }
 .team-list-item{
-    padding-right: 30px;
+    margin-right: 30px;
     text-align: center;
+}
+.section-team-title{
+    background-color: var(--color-gray);
+    color: var(--color-dark);
+    font-size: 36px;
+    margin-bottom: 50px;
 }
 .text-container{
     width: 270px;
@@ -219,53 +207,18 @@
     border-bottom-left-radius: 4px; 
     border-bottom-right-radius: 4px;
 }
-.section-team-title{
-    background-color: var(--color-gray);
-    color: var(--color-dark);
-    font-size: 36px;
-    padding-bottom: 50px;
-}
 .name{
     color: var(--color-dark);
     font-weight: 500;
     font-size: 16px;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .profession{
     color: var(--color-text);
     font-weight: 400;
     font-size: 16px;
-    padding-bottom: 30px;
-}
-.clients{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 94px 0;
-}
-.clients-list{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0;
-    justify-content: center;
-}
-.clients-title{
-    font-size: 36px;
-    padding-bottom: 50px;
-}
-.clients-list-item{
-    padding-right: 30px;
-}
-.clients-list-item-image{
-    width: 170px;
-    height: 92px;
-}
-.clients-list-item-image:hover{
-    color: var(--color-main-brand);
+    margin-bottom: 30px;
 }
 .footer{
     background-color: var(--color-backgraund);
