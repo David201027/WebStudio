@@ -18,6 +18,7 @@
 .conteiner{
     width: 1200px;
     margin: 0 auto;
+    /* padding: 0 15; */
     border: 1px dotted red;
 }
 .grow{
@@ -26,6 +27,7 @@
     align-items: center;
     text-align: center;
 }
+/* Голова */
 .header-div{
     display: flex;
     flex-direction: row;
@@ -101,6 +103,7 @@
 .active-link{
     color: var(--color-main-brand);
 }
+/* Главная часть */
 .hero{
     background-color: var(--color-backgraund);
     padding: 200px 120px;
@@ -111,9 +114,9 @@
     font-size: 44px;
     line-height: 1.36;
     margin-bottom: 30px;
-    letter-spacing: 6%;
+    letter-spacing: 2.64px;
 }
-.hero-button{
+.hero-button {
     background-color: var(--color-main-brand);
     color: var(--color-light);
     width: 216px;
@@ -123,16 +126,22 @@
     line-height: 30px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 }
 .hero-button :active{
     background-color: var(--coolor-active);
 }
+/* Особености */
 .peculiarities-section{
     padding-top: 75px;
 }
 .peculiarities-section-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.42px;
     display: flex;
-    text-align: center;
+    justify-content: space-between;
     gap: 30px;
 }
 .peculiarities-list-item{
@@ -150,22 +159,23 @@
     color: var(--color-text);
     font-weight: 400;
 }
+/* Занятия */
 .section-doing{
     /* background-color: lightpink; */
-    margin-top: 113px;
-    margin-bottom: 94px;
-}
-.doing-item{
-    margin-right: 30px;
+    padding-top: 113px;
+    padding-bottom: 94px;
 }
 .section-doing-list{
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
 }
 .doing-image{
     width: 370px;
     height: 294px;
 }
+/* Команда */
 .team-image{
     width: 270px;
     height: 260px;
@@ -177,21 +187,22 @@
 }
 .section-team{
     background-color: var(--color-gray);
-    padding-bottom: 94px;
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .section-team-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
-    padding: 0;
+    gap: 30px;
 }
 .section-team-list-item{
-    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 .team-list-item{
-    margin-right: 30px;
     text-align: center;
 }
 .section-team-title{
@@ -212,14 +223,14 @@
     font-weight: 500;
     font-size: 16px;
     margin-top: 30px;
-    margin-bottom: 10px;
 }
 .profession{
     color: var(--color-text);
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 30px;
+    margin-top: 10px;
 }
+/* Подвал */
 .footer{
     background-color: var(--color-backgraund);
     padding-top: 60px;
@@ -234,19 +245,19 @@
     color: var(--color-light);
     font-family: 'Raleway';
     font-size: 26px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .adress-list-item-link-maps{
     color: var(--color-light);
     font-weight: 400;
     line-height: 1.71;
     font-style: normal;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 .adress-list-item-link{
     color: var(--color-footer-a);
     font-weight: 400;
     line-height: 1.71;
     font-style: normal;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
