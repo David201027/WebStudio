@@ -18,8 +18,8 @@
 .conteiner{
     width: 1200px;
     margin: 0 auto;
-    /* padding: 0 15; */
-    border: 1px dotted red;
+    padding: 0 15;
+    /* border: 1px dotted red; */
 }
 .grow{
     display: flex;
