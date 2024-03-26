@@ -194,7 +194,7 @@
     background-color: var(--color-light);
 }
 .section-team-list-item:not(:last-child){
-    margin-right: 25px;
+    margin-right: 26px;
 }
 .name{
     color: var(--color-dark);
