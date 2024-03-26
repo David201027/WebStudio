@@ -166,7 +166,7 @@
     display: inline-block;
 }
 .doing-item:not(:last-child){
-    margin-right: 25px;
+    margin-right: 26px;
 }
 /* Команда */
 .team-image{
