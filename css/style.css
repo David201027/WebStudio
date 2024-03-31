@@ -103,7 +103,6 @@
     align-items: center;
 }
 .hero{
-    background-color: var(--color-backgraund);
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     padding-top: 200px;
