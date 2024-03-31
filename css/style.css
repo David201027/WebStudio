@@ -243,6 +243,7 @@
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
 }
 .footer-studio{
     color: var(--color-light);
@@ -250,6 +251,10 @@
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+.adress-list-item:not(:last-child){
+    margin-bottom: 9px;
 }
 .adress-list-item-link-maps{
     color: var(--color-light);
