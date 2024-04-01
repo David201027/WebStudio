@@ -27,9 +27,7 @@
 .section-doing-list,
 .section-team-list{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 /* Голова */
 .header{
@@ -40,12 +38,10 @@
 .header-list{
     display: flex;
     list-style: none;
-    justify-content: space-between;
     align-items: center;
 }
 .header-div{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .nav-link{
@@ -102,8 +98,10 @@
     align-items: center;
 }
 .hero{
+    background-color: var(--color-backgraund);
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -138,20 +136,15 @@
 .peculiarities-section{
     padding-top: 94px;
 }
-.after::before{
-    background-color: var(--color-after);
-}
 .peculiarities-section-title{
     color: var(--color-dark);
     font-size: 36px;
     text-align: center;
+    margin-bottom: 50px;
 }
 .peculiarities-list-item{
     width: 266px;
     vertical-align: top;
-}
-.peculiarities-list-item:not(:last-child){
-    margin-right: 30px;
 }
 .peculiarities-title{
     color: var(--color-dark);
@@ -180,9 +173,6 @@
     text-align: center;
     margin-bottom: 50px;
 }
-.doing-item:not(:last-child){
-    margin-right: 30px;
-}
 /* Команда */
 .team-image{
     width: 270px;
@@ -200,15 +190,13 @@
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 50px;
 }
 .section-team-list-item{
     padding-bottom: 30px;
     border-radius: 0 0 4px 4px;
     background-color: var(--color-light);
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-}
-.section-team-list-item:not(:last-child){
-    margin-right: 30px;
 }
 .name{
     color: var(--color-dark);
