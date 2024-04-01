@@ -3,7 +3,6 @@
     --color-light: #FFFFFF;
     --color-main-brand: #2196F3;
     --color-backgraund: #2F303A;
-    --coolor-active: #188CE8;
     --color-text: #757575;
     --color-gray: #f5f4fa;
     --color-black: #000000;
@@ -20,7 +19,7 @@
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 1px dotted red; */
+    outline: 1px dotted red;
 }
 
 .peculiarities-section-list,
@@ -128,9 +127,6 @@
     text-align: center;
     border: none;
     padding: 10px 23px;
-}
-.hero-button :active{
-    background-color: var(--coolor-active);
 }
 /* Особености */
 .peculiarities-section{
@@ -256,4 +252,64 @@
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
+}
+/* Портфолио */
+.main-portfolio{
+    padding-top: 94px;
+    padding-bottom: 64px;
+}
+.filter-section{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.filter-list,
+.project-list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.filter-list{
+    width: 575px;
+}
+.active-button{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+    background: var(--color-main-brand);
+}
+.list-item-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--color-dark);
+}
+.image{
+    margin-bottom: 20px;
+}
+.project-item-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    color: var(--color-dark);
+    padding-left: 24px;
+    margin-bottom: 4px;
+}
+.description-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+    padding-left: 24px;
+}
+.project-list-item{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: #eeeeee;
 }
