@@ -7,7 +7,7 @@
     --color-gray: #f5f4fa;
     --color-black: #000000;
     --color-footer-a: rgba(255, 255, 255, 0.6);
-    --color-after: #F5F4FA;
+    --color-button-p: #F5F4FA;
 }
 .body{
     font-family: 'Roboto';
@@ -75,6 +75,9 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.nav-list-link:hover{
+    color: var(--color-main-brand);
+}
 .nav-list-item:not(:last-child){
     margin-right: 50px;
 }
@@ -84,7 +87,7 @@
     font-size: 14px;
     letter-spacing: 0.02em;
 }
-.list-link :hover{
+.list-link:hover{
     color: var(--color-main-brand);
 }
 .active-link{
@@ -100,7 +103,6 @@
     background-color: var(--color-backgraund);
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -119,14 +121,17 @@
     background-color: var(--color-main-brand);
     color: var(--color-light);
     border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-weight: 700;
     font-size: 16px;
     line-height: 187%;
     letter-spacing: 0.06em;
     text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: none;
     padding: 10px 23px;
+}
+.hero-button:hover{
+    box-shadow: none;
 }
 /* Особености */
 .peculiarities-section{
@@ -139,8 +144,20 @@
     margin-bottom: 50px;
 }
 .peculiarities-list-item{
-    width: 266px;
-    vertical-align: top;
+    width: 270px;
+}
+.peculiarities-list-item::before{
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: var(--color-gray);
+    background-image: 
+        url(../images/befor1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 .peculiarities-title{
     color: var(--color-dark);
@@ -262,8 +279,6 @@
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 .filter-list,
 .project-list{
@@ -274,11 +289,8 @@
     justify-content: space-between;
 }
 .filter-list{
-    width: 575px;
-}
-.active-button{
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    background: var(--color-main-brand);
+    display: flex;
+    justify-content: center;
 }
 .list-item-button{
     font-weight: 500;
@@ -287,6 +299,29 @@
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--color-dark);
+    background-color: var(--color-button-p);
+    border: 0;
+    padding: 6px 24px;
+    border-radius: 4px;
+}
+.list-item-button:active{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: var(--color-main-brand);
+    color: var(--color-light);
+}
+.filter-list-item:not(:last-child){
+    margin-right: 8px;
+}
+.active-button{
+    background-color: var(--color-main-brand);
+    color: var(--color-light);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.filter-title{
+    text-align: center;
+}
+.project-title{
+    text-align: center;
 }
 .image{
     margin-bottom: 20px;
