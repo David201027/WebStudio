@@ -308,7 +308,7 @@
 .project-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 30px;
     list-style: none;
     padding: 0;
 }
@@ -361,7 +361,6 @@
     justify-content: left;
 }
 .project-list-item{
-    margin-bottom: 30px;
     background-color: var(--color-light);
     max-width: 370px;
     height: auto;
