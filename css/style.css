@@ -56,6 +56,9 @@
     display: flex;
     align-items: center;
 }
+.nav-list{
+    gap: 50px;
+}
 .nav-link{
     font-family: 'Raleway';
     color: var(--color-main-brand);
@@ -72,15 +75,11 @@
     font-size: 26px;
     letter-spacing: 0.03em;
 }
-.list-item:not(:last-child){
-    margin-right: 50px;
-}
 .nav{
-    margin-right: 344px;
+    margin-right: 318px;
     display: flex;
     align-items: center;
 }
-
 .nav-list-link{
     color: var(--color-dark);
     font-weight: 500;
@@ -91,17 +90,22 @@
 .nav-list-link:hover{
     color: var(--color-main-brand);
 }
-.nav-list-item:not(:last-child){
-    margin-right: 50px;
+.header-list{
+    gap: 30px;
 }
 .list-link{
     color: var(--color-text);
+    fill: var(--color-text);
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-.list-link:hover{
+.list-item:hover .list-link{
     color: var(--color-main-brand);
+    fill: var(--color-main-brand);
 }
 .active-link{
     color: var(--color-main-brand);
@@ -114,7 +118,7 @@
 }
 .hero{
     background-color: var(--color-backgraund);
-    background-image: linear-gradient(to center,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/background.jpg);
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 200px;
@@ -229,6 +233,26 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.social-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 206px;
+    margin-top: 28px;
+}
+.social-item{
+    width: 44px;
+    height: 44px;
+}
+.social-link{
+    padding: 12px;
+    fill: #AFB1B8;
+}
+.social-link:hover{
+    border-radius: 44px;
+    background-color: var(--color-main-brand);
+    fill: var(--color-light);
+}
 .section-team-title{
     color: var(--color-dark);
     font-weight: 700;
@@ -243,6 +267,9 @@
     background-color: var(--color-light);
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     outline: 1px dotted hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .name{
     color: var(--color-dark);
@@ -319,8 +346,7 @@
     justify-content: space-between;
 }
 .portfolio-section{
-    padding-top: 98px;
-    padding-bottom: 94px;
+    padding: 94px 0;
 }
 .filter-list{
     display: flex;
@@ -356,7 +382,7 @@
     margin-right: 8px;
 }
 .filter-title{
-    text-align: center;
+    display: none;
 }
 .project-title{
     text-align: center;
