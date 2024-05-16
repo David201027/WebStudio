@@ -374,7 +374,7 @@
     letter-spacing: 0.03em;
 }
 .adress-list-item-link{
-    color: var(--color-light);
+    color: var(--color-footer-a);
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
