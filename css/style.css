@@ -20,13 +20,13 @@
 .main-conteiner{
     width: 1600px;
     margin: 0 auto;
-    outline: 1px dotted greenyellow;
+    /* outline: 1px dotted greenyellow; */
 }
 .conteiner{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px dotted red;
+    /* outline: 1px dotted red; */
 }
 .peculiarities-section-list,
 .section-doing-list,
@@ -47,10 +47,10 @@
     align-items: center;
 }
 .nav-list{
-    outline: 1px dotted palevioletred;
+    /* outline: 1px dotted palevioletred; */
 }
 .header-list{
-    outline: 1px dotted cadetblue;
+    /* outline: 1px dotted cadetblue; */
 }
 .header-div{
     display: flex;
@@ -165,7 +165,7 @@
 }
 .peculiarities-list-item{
     width: 270px;
-    outline: 1px dotted greenyellow;
+    /* outline: 1px dotted greenyellow; */
 }
 .peculiarities-list-item::before{
     content: '';
@@ -174,11 +174,11 @@
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
-    outline: 1px dotted lightblue;
+    /* outline: 1px dotted lightblue; */
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--color-gray);
-    outline: 1px dotted green;
+    /* outline: 1px dotted green; */
 }
 .peculiarities-list-item:nth-child(1):before{
     background-image: url(../images/befor-one.png);
@@ -220,7 +220,7 @@
     margin-bottom: 50px;
 }
 .doing-item{
-    outline: 1px dotted blueviolet;
+    /* outline: 1px dotted blueviolet; */
 }
 /* Команда */
 .team-image{
@@ -237,7 +237,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 28px;
+    margin-top: 16px;
 }
 .social-item{
     width: 44px;
@@ -254,9 +254,13 @@
     fill: var(--color-light);
 }
 .social-link{
-    width: 20px;
-    height: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     fill: #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .section-team-title{
     color: var(--color-dark);
@@ -271,7 +275,7 @@
     border-radius: 0 0 4px 4px;
     background-color: var(--color-light);
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-    outline: 1px dotted hotpink;
+    /* outline: 1px dotted hotpink; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -354,7 +358,7 @@
     margin-bottom: 20px;
 }
 .adress-list-item{
-    outline: 1px dotted tomato;
+    /* outline: 1px dotted tomato; */
     display: flex;
     flex-direction: row;
 }
@@ -375,11 +379,21 @@
     line-height: 171%;
     letter-spacing: 0.03em;
 }
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    gap: 69px;
+}
+.social-footer{
+    padding-top: 12px;
+}
 .footer-title{
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--color-light);
+    margin-bottom: 20px;
 }
 .footer-list{
     display: flex;
