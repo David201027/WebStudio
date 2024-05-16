@@ -423,11 +423,6 @@
     fill: var(--color-light);
 }
 /* Портфолио */
-.filter-section{
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-}
 .filter-list{
     display: flex;
     align-items: center;
@@ -462,10 +457,11 @@
     padding: 6px 24px;
     border-radius: 4px;
 }
-.list-item-button:active{
+.list-item-button:hover{
     background-color: var(--color-main-brand);
     color: var(--color-light);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .filter-list-item:not(:last-child){
     margin-right: 8px;
