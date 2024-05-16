@@ -236,22 +236,27 @@
 .social-list{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 206px;
+    gap: 10px;
     margin-top: 28px;
 }
 .social-item{
     width: 44px;
     height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.social-link{
-    padding: 12px;
-    fill: #AFB1B8;
+.social-item:hover{
+    border-radius: 50%;
+    background-color: var(--color-main-brand);
 }
 .social-link:hover{
-    border-radius: 44px;
-    background-color: var(--color-main-brand);
     fill: var(--color-light);
+}
+.social-link{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
 }
 .section-team-title{
     color: var(--color-dark);
@@ -286,7 +291,42 @@
     letter-spacing: 0.03em;
     text-align: center;
 }
-
+.section-clients{
+    padding: 94px 0;
+}
+.clients-title{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--color-dark);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.clients-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.clients-item{
+    display: flex;
+    width: 170px;
+    height: 92px;
+}
+.clients-item:hover .clients-link{
+    border:1px solid var(--color-main-brand);
+    fill: var(--color-main-brand);
+}
+.clients-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+}
 /* Подвал */
 .footer{
     background-color: var(--color-backgraund);
@@ -315,6 +355,8 @@
 }
 .adress-list-item{
     outline: 1px dotted tomato;
+    display: flex;
+    flex-direction: row;
 }
 .adress-list-item:not(:last-child){
     margin-bottom: 9px;
@@ -327,11 +369,43 @@
     letter-spacing: 0.03em;
 }
 .adress-list-item-link{
-    color: var(--color-footer-a);
+    color: var(--color-light);
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-item{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-item:hover{
+    background-color: var(--color-main-brand);
+}
+.footer-item-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--color-light);
 }
 /* Портфолио */
 .filter-section{
