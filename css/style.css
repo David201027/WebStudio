@@ -383,10 +383,10 @@
 .footer-div{
     display: flex;
     flex-direction: row;
-    gap: 69px;
 }
 .social-footer{
     padding-top: 12px;
+    margin-left: 70px;
 }
 .footer-title{
     font-weight: 700;
@@ -422,6 +422,10 @@
     justify-content: center;
     fill: var(--color-light);
 }
+.div-send{
+    margin-left: 93px;
+    padding-top: 12px;
+}
 .send-title{
     font-weight: 700;
     font-size: 14px;
@@ -437,10 +441,26 @@
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: rgba(33, 150, 243, 0);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
-.send-button{
+.footer-buttons{
     display: flex;
     align-items: center;
+}
+.send-input:focus{
+    color: rgba(255, 255, 255, 0.6);
+    list-style: none;
+}
+.send-button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     fill: white;
     color: var(--color-light);
     border-radius: 4px;
@@ -450,6 +470,7 @@
     padding: 10px 28px;
     gap: 10px;
     margin-left: 12px;
+    cursor: pointer;
 }
 /* Портфолио */
 .filter-list{
