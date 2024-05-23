@@ -228,11 +228,10 @@
     color: var(--color-light);
     background-color: rgba(47, 48, 58, 0.8);
     position: absolute;
-    top: 224px;
+    bottom: 0;
+    width: 100%;
     text-wrap: nowrap;
-    width: 370px;
-    height: 70px;
-    padding-top: 24px;
+    padding: 24px 0;
 }
 .doing-item {
     position: relative;
