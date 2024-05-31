@@ -56,7 +56,54 @@
             <section class="hero">
                 <div class="conteiner hero-div">
                     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                    <button class="hero-button" type="button">Замовити послугу</button>
+                    <button class="hero-button" type="button" data-modal-open>Замовити послугу</button>
+                    <div class="backdrop is-hidden" data-modal>
+                        <div class="modal">
+                            <button class="btn" data-modal-close>
+                               <svg width="11px" height="11px">
+                                   <use href="./images/symboldefs.svg#close"></use>
+                               </svg>
+                            </button>
+                            <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+                            <form class="form">
+                                <div class="div-form">
+                                    <label class="label" for="input-man">Ім'я</label>
+                                    <input maxlength="20" class="input-text" type="text" id="input-man">
+                                    <svg class="man" width="12px" height="12px">
+                                        <use href="./images/symboldefs.svg#man"></use>
+                                    </svg>
+                                </div>
+                                <div class="div-form">
+                                    <label class="label" for="input-phone">Телефон</label>
+                                    <input maxlength="13" class="input-text" type="tel" id="input-phone">
+                                    <svg class="phone1" width="13px" height="13px">
+                                        <use href="./images/symboldefs.svg#phone1"></use>
+                                    </svg>
+                                </div>
+                                <div class="div-form">
+                                    <label class="label" for="input-mail">Пошта</label>
+                                    <input maxlength="30" minlength="5" pattern="@gmail.com" class="input-text" type="email" id="input-mail">
+                                    <svg class="mail" width="15px" height="12px">
+                                        <use href="./images/symboldefs.svg#mail"></use>
+                                    </svg>
+                                </div>
+
+                                <label for="textarea" class="label">Коментар</label>
+                                <textarea maxlength="300" class="textarea" id="textarea"></textarea>
+
+                                <div class="div-checkbox">
+                                    <input id="checkbox" type="checkbox">
+                                    <label for="checkbox" class="checkbox-lb">Погоджуюся з розсилкою та приймаю
+                                            <a class="check-link" href="./lorem.html">
+                                                Умови договору
+                                            </a>
+                                        </span>
+                                    </label>
+                                </div>
+                                <button class="hero-button submit" type="submit" data-modal-close>Відправити</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="peculiarities-section">
@@ -381,6 +428,6 @@
             </div>
         </footer>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
-
 </html>
