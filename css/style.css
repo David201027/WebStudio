@@ -204,7 +204,6 @@
 #checkbox{
     border: 2px solid var(--color-dark);
     border-radius: 2px;
-    background-color: lightblue;
 }
 .checkbox-lb{
     font-weight: 400;
@@ -222,6 +221,7 @@
 .sumbit{
     width: 200px;
     height: 50px;
+    margin-left: 124px;
 }
 .textarea{
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -259,9 +259,6 @@
     padding: 40px;
     background-color: var(--color-light);
     transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .man{
     position: absolute;
