@@ -190,10 +190,10 @@
 }
 .div-checkbox{
     margin-top: 20px;
-    margin-bottom: 30px;
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-bottom: 30px;
 }
 .check-link{
     text-decoration: underline;
@@ -207,10 +207,7 @@
     letter-spacing: 0.03em;
     color: #757575;
 }
-.label:valid{
-    border-color: greenyellow;
-}
-.label:invalid{
+input:invalid{
     border-color: red;
 }
 .sumbit{
