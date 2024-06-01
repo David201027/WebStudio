@@ -190,11 +190,10 @@
 }
 .div-checkbox{
     margin-top: 20px;
-    padding-left: 12px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 30px;
 }
 .check-link{
     text-decoration: underline;
@@ -241,6 +240,11 @@
 }
 .div-form:not(:last-child){
     margin-bottom: 10px;
+}
+.forms{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .div-form{
     position: relative;
@@ -578,7 +582,7 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-buttons{
+.form{
     display: flex;
     align-items: center;
 }
