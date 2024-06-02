@@ -224,9 +224,6 @@ input:focus + .mail{
     letter-spacing: 0.03em;
     color: #757575;
 }
-input:invalid{
-    border-color: red;
-}
 .sumbit{
     width: 200px;
     height: 50px;

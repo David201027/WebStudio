@@ -63,21 +63,21 @@
                             <form class="forms">
                                 <div class="div-form">
                                     <label class="label" for="input-man">Ім'я</label>
-                                    <input maxlength="30" class="input-text" type="text" id="input-man">
+                                    <input maxlength="30" class="input-text" type="text" id="input-man" required>
                                     <svg class="man" width="12px" height="12px">
                                         <use href="./images/symboldefs.svg#man"></use>
                                     </svg>
                                 </div>
                                 <div class="div-form">
                                     <label class="label" for="input-phone">Телефон</label>
-                                    <input maxlength="13" class="input-text" type="tel" id="input-phone">
+                                    <input maxlength="13" inputmode="numeric" pattern="[0-9+]*" class="input-text" type="tel" id="input-phone" required>
                                     <svg class="phone1" width="13px" height="13px">
                                         <use href="./images/symboldefs.svg#phone1"></use>
                                     </svg>
                                 </div>
                                 <div class="div-form">
                                     <label class="label" for="input-mail">Пошта</label>
-                                    <input maxlength="30" minlength="5" class="input-text" type="email" id="input-mail">
+                                    <input maxlength="30" minlength="5" class="input-text" type="email" id="input-mail" required>
                                     <svg class="mail" width="15px" height="12px">
                                         <use href="./images/symboldefs.svg#mail"></use>
                                     </svg>
@@ -87,7 +87,7 @@
                                     <textarea maxlength="300" class="textarea" id="textarea" placeholder="Введіть текст"></textarea>
                                 </div>
                                 <div class="div-checkbox">
-                                    <input id="checkbox" type="checkbox">
+                                    <input id="checkbox" type="checkbox" required>
                                     <label for="checkbox" class="checkbox-lb">Погоджуюся з розсилкою та приймаю
                                         <a class="check-link" href="./lorem.html">
                                             Умови договору
