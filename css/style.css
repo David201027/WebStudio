@@ -208,6 +208,9 @@ input:focus{
     border: 1px solid #2196f3;
     transition: border-color 0.3s;
 }
+input:focus:invalid{
+    border-color: red;
+}
 input:focus + .man{
     fill: #2196F3;
 }
