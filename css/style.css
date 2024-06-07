@@ -702,9 +702,13 @@ input:focus + .mail{
     text-align: center;
 }
 .div-text{
+    width: 370px;
+    height: 110px;
     padding: 20px 23px 19px 23px;
     border: solid var(--color-div); 
     border-width: 0 1px 1px 1px;
+    background-color: #FFFFFF;
+    position: relative;
 }
 .project-item-title{
     font-weight: 700;
@@ -735,13 +739,13 @@ input:focus + .mail{
     width: 370px;
     height: 404px;
     margin: 0 auto;
-    background-color: #FFFFFF;
     overflow: hidden;
 }
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 110px;
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
@@ -751,4 +755,12 @@ input:focus + .mail{
 }
 .box:hover .overlay {
     transform: translatey(0);
+}
+.taxt{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    padding: 63px 24px;
 }
