@@ -114,6 +114,11 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
 }
 .nav-list-link:hover{
     color: var(--color-main-brand);
@@ -130,6 +135,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
+
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
 }
 .list-item:hover .list-link{
     color: var(--color-main-brand);
@@ -461,6 +471,11 @@ input:focus + .mail{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
 }
 .section-team-title{
     color: var(--color-dark);
@@ -528,6 +543,11 @@ input:focus + .mail{
     border-radius: 4px;
     width: 170px;
     height: 92px;
+
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
 }
 /* Подвал */
 .footer{
