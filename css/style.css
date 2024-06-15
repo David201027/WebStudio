@@ -315,6 +315,7 @@ input:focus + .mail{
     padding: 40px;
     background-color: var(--color-light);
     transform: translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .man{
     position: absolute;
