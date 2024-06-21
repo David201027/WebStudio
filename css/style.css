@@ -64,9 +64,6 @@
 .nav-list{
     /* outline: 1px red dashed; */
 }
-.nav-list-item{
-    position: relative;
-}
 .header-list{
     /* outline: 1px red dashed; */
 }
@@ -78,22 +75,27 @@
 .nav-list{
     gap: 50px;
 }
-.active-link::after{
+.nav-list-link::after {
     content: '';
-    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
     height: 4px;
-    border-radius: 2px;
     background-color: #2196F3;
-    position: absolute;
-    bottom: 0;
+    border-radius: 2px;
+    transform: scaleX(0);
+    transition: transform 250ms ease;
+    transition-delay: 100ms;
 }
-/* .pf::after{
-    content: '';
-    display: block;
-    width: 78px;
-    height: 4px;
-} */
+
+.nav-list-link.active-link::after {
+    transform: scaleX(1);
+}
+
+.nav-list-link:hover::after {
+    transform: scaleX(1);
+}
 .nav-link{
     font-family: 'Raleway';
     color: var(--color-main-brand);
@@ -121,6 +123,8 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     text-decoration: none;
+    position: relative;
+    padding-bottom: 33px; 
 
     transition-property: color, fill;
     transition-duration: 250ms;
@@ -239,22 +243,18 @@
 .div-form > input{
     padding-left: 42px;
 }
+input, textarea{
+    outline: none;
+}
+input:hover{
+    cursor: col-resize;
+}
 input:focus{
     /* outline: 1px red dashed; */
     border: 1px solid #2196f3;
-    transition: border-color 0.3s;
 }
 input:focus:invalid{
     border-color: red;
-}
-input:focus + .man{
-    fill: #2196F3;
-}
-input:focus + .phone1{
-    fill: #2196F3;
-}
-input:focus + .mail{
-    fill: #2196F3;
 }
 .checkbox-lb{
     font-weight: 400;
@@ -279,7 +279,6 @@ input:focus + .mail{
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
 }
 .textarea:focus{
     /* outline: 1px red dashed; */
@@ -555,7 +554,7 @@ input:focus + .mail{
     width: 170px;
     height: 92px;
 
-    transition-property: background, fill;
+    transition-property: border, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 100ms;
@@ -724,7 +723,7 @@ input:focus + .mail{
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
     cursor: pointer;
 
-    transition-property: background, fill;
+    transition-property: background, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 100ms;
