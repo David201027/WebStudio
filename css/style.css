@@ -210,7 +210,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
     transition-property: opacity, visibility;
-    transition-duration: 250ms;
+    transition-duration: 2500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-title{
@@ -317,7 +317,7 @@ input:focus:invalid{
     background-color: var(--color-light);
     transform: translate(-50%, -50%);
     transition-property: transform, opacity;
-    transition-duration: 250ms;
+    transition-duration: 2500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .man{
