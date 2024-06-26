@@ -85,7 +85,7 @@
     background-color: #2196F3;
     border-radius: 2px;
     transform: scaleX(0);
-    transition: transform 250ms ease;
+    transition: transform 500ms ease;
     transition-delay: 100ms;
 }
 .nav-list-link.active-link::after {
@@ -125,7 +125,7 @@
     padding-bottom: 33px; 
 
     transition-property: color, fill;
-    transition-duration: 250ms;
+    transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 100ms;
 }
@@ -319,7 +319,7 @@ input:focus:invalid{
     transform: translate(-50%, -50%);
 
     transition-property: transform, opacity;
-    transition-duration: 250ms;
+    transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .man{
@@ -483,7 +483,7 @@ input:focus:invalid{
     justify-content: center;
 
     transition-property: background, fill;
-    transition-duration: 250ms;
+    transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 100ms;
 }
@@ -556,7 +556,7 @@ input:focus:invalid{
     height: 92px;
 
     transition-property: border, fill;
-    transition-duration: 250ms;
+    transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 100ms;
 }
@@ -725,7 +725,7 @@ input:focus:invalid{
     cursor: pointer;
 
     transition-property: background, color, box-shadow;
-    transition-duration: 250ms;
+    transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 100ms;
 }
@@ -790,7 +790,7 @@ input:focus:invalid{
   background-color: rgba(33, 150, 243, 0.9);
 
   transform: translatey(100%);
-  transition: transform 250ms ease-in-out;
+  transition: transform 500ms ease-in-out;
 }
 .box:hover .overlay {
     transform: translatey(0);
