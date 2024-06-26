@@ -146,13 +146,14 @@
     gap: 10px;
 
     transition-property: color, fill;
-    transition-duration: 250ms;
+    transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 100ms;
 }
 .list-item:hover .list-link{
     color: var(--color-main-brand);
     fill: var(--color-main-brand);
+
 }
 .active-link{
     color: var(--color-main-brand);
@@ -196,6 +197,30 @@
     border: none;
     width: 216px;
     height: 50px;
+    animation-name: Width;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes Width{
+    0%{
+        background-color: #2196F3;
+    }
+    20%{
+        background-color: red;
+    }
+    40%{
+        background-color: orange;
+    }
+    60%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: green;
+    }
+    100%{
+        background-color: blue;
+    }
 }
 .hero-button:hover{
     box-shadow: none;
@@ -209,6 +234,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
+    z-index: 2;
 }
 .backdrop.is-hidden .modal {
     opacity: 0;
