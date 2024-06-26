@@ -209,8 +209,12 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
-    transition-property: opacity, visibility;
-    transition-duration: 2500ms;
+}
+.backdrop.is-hidden .modal {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.5);
+    transition-property: transform, opacity;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-title{
@@ -316,8 +320,9 @@ input:focus:invalid{
     padding: 40px;
     background-color: var(--color-light);
     transform: translate(-50%, -50%);
+
     transition-property: transform, opacity;
-    transition-duration: 2500ms;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .man{
