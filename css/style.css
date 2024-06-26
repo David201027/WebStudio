@@ -213,9 +213,6 @@
 .backdrop.is-hidden .modal {
     opacity: 0;
     transform: translate(-50%, -50%) scale(1.5);
-    transition-property: transform, opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-title{
     font-weight: 700;
