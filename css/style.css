@@ -648,6 +648,9 @@ input:focus:invalid{
     line-height: 171%;
     letter-spacing: 0.03em;
 }
+.adress-list-item-link:hover{
+    color: var(--color-light);
+}
 .footer-div{
     display: flex;
     flex-direction: row;
