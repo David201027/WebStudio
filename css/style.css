@@ -85,8 +85,9 @@
     background-color: #2196F3;
     border-radius: 2px;
     transform: scaleX(0);
-    transition: transform 500ms ease;
-    transition-delay: 100ms;
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
 }
 .nav-list-link.active-link::after {
     transform: scaleX(1);
@@ -197,48 +198,10 @@
     border: none;
     width: 216px;
     height: 50px;
-    /* animation-name: Width;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite; */
-}
-@keyframes Width{
-    0%{
-        background-color: #2196F3;
-    }
-    20%{
-        background-color: red;
-        width: 226px;
-        height: 60px;
-    }
-    40%{
-        background-color: orange;
-        width: 216px;
-        height: 50px;
-    }
-    60%{
-        background-color: yellow;
-        width: 226px;
-        height: 60px;
-    }
-    80%{
-        background-color: green;
-        width: 216px;
-        height: 50px;
-    }
-    100%{
-        background-color: blue;
-        width: 226px;
-        height: 60px;
-    }
 }
 .hero-button:hover{
     box-shadow: none;
     cursor: pointer;
-    animation-name: Width;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
 }
 .backdrop {
     position: fixed;
@@ -356,7 +319,7 @@ input:focus:invalid{
     height: 581px;
     padding: 40px;
     background-color: var(--color-light);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
 
     transition-property: transform, opacity;
     transition-duration: 500ms;
@@ -480,6 +443,15 @@ input:focus:invalid{
     position: relative;
     width: 370px;
     height: 294px;
+    transform: scaleX(1);
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 100ms;
+}
+.doing-item:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .doing-item{
     /* outline: 1px red dashed; */
@@ -521,6 +493,7 @@ input:focus:invalid{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 
     transition-property: background, fill;
     transition-duration: 500ms;
@@ -544,6 +517,16 @@ input:focus:invalid{
     display: flex;
     flex-direction: column;
     align-items: center;
+    transform: scaleX(1);
+    transition-property: transform, box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 100ms;
+}
+.section-team-list-item:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.14), 0 4px 4px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 .name{
     color: var(--color-dark);
@@ -647,6 +630,10 @@ input:focus:invalid{
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
 }
 .adress-list-item-link:hover{
     color: var(--color-light);
@@ -810,8 +797,11 @@ input:focus:invalid{
 .project-list-item{
     background-color: var(--color-light);
     max-width: 370px;
-
     cursor: pointer;
+
+    transition-property: box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
 }
 .project-list-item:hover{
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -827,13 +817,14 @@ input:focus:invalid{
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 110px;
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
 
   transform: translatey(100%);
-  transition: transform 500ms ease-in-out;
+  transition-property: transform;
+  transition-duration:  500ms;
+  transition-timing-function: ease-in-out;
 }
 .box:hover .overlay {
     transform: translatey(0);
