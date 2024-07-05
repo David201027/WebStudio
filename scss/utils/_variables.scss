@@ -1,0 +1,56 @@
+:root{
+    --font-family: 'Roboto';
+    --second-family: 'Raleway';
+
+    --color-dark: #212121;
+    --color-light: #FFFFFF;
+    --color-main-brand: #2196F3;
+    --color-backgraund: #2F303A;
+    --color-text: #757575;
+    --color-gray: #f5f4fa;
+    --color-black: #000000;
+    --color-footer-a: rgba(255, 255, 255, 0.6);
+    --color-button-p: #F5F4FA;
+    --color-div: #EEEEEE;
+    --color-border: #ECECEC;
+}
+
+$font-family: 'Roboto';
+$second-family: 'Raleway';
+
+$color-dark: #212121;
+$color-light: #FFFFFF;
+$color-main-brand: #2196F3;
+$color-backgraund: #2F303A;
+$color-text: #757575;
+$color-gray: #f5f4fa;
+$color-black: #000000;
+$color-footer-a: rgba(255, 255, 255, 0.6);
+$color-button-p: #F5F4FA;
+$color-div: #EEEEEE;
+$color-border: #ECECEC;
+
+$fonts: (
+    font-family: 'Roboto',
+    second-family: 'Raleway',
+);
+$colors: (
+    dark:#212121,
+    light: #FFFFFF,
+    main-brand: #2196F3,
+    backgraund: #2F303A,
+    text: #757575,
+    gray: #f5f4fa,
+    black: #000000,
+    footer-a: rgba(255, 255, 255, 0.6),
+    button-p: #F5F4FA,
+    div: #EEEEEE,
+    border: #ECECEC,
+);
+
+@function getFont($key) {
+    @return map-get($fonts, $key);
+}
+@function getColor($key) {
+    @return map-get($colors, $key);
+}

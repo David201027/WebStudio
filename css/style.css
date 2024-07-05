@@ -22,17 +22,6 @@
     margin: 0 auto;
     /* outline: 1px red dashed; */
 }
-.main-conteiner-mb{
-    width: 480px;
-    margin: 0 auto;
-    /* outline: 1px red dashed; */
-}
-.conteiner-mb{
-    width: 450px;
-    margin: 0 auto;
-    padding: 0 15px;
-    /* outline: 1px red dashed; */
-}
 .conteiner{
     width: 1200px;
     margin: 0 auto;
@@ -60,12 +49,6 @@
     display: flex;
     list-style: none;
     align-items: center;
-}
-.nav-list{
-    /* outline: 1px red dashed; */
-}
-.header-list{
-    /* outline: 1px red dashed; */
 }
 .header-div{
     display: flex;
@@ -452,9 +435,6 @@ input:focus:invalid{
 .doing-item:hover{
     transform: scale(1.05);
     cursor: pointer;
-}
-.doing-item{
-    /* outline: 1px red dashed; */
 }
 /* Команда */
 .team-image{
